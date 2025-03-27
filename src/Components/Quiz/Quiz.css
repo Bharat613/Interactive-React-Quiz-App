@@ -1,0 +1,91 @@
+.container{
+width : 500px;
+background-color: white;
+display: flex;
+flex-direction: column;
+margin:auto;
+margin-top : 50px;
+padding : 40px 50px;
+gap : 15px;
+border-radius: 20px;
+
+
+}
+.container hr{
+    height : 2px;
+    border : none;
+    background-color: rgb(8, 8, 8);
+}
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container ul li{
+    height : 50px;
+    display: flex;
+    padding-left : 15px;
+    border : 1px solid rgb(49, 59, 29);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 15px;
+    font-size: 17px;
+}
+.container button{
+    margin : auto;
+    width : 250px;
+    height : 55px;
+    background:rgb(111, 60, 134);
+    border : none;
+    font-weight: 500;
+    font-size : 21px;
+    cursor: pointer;
+    border-radius: 10px;
+    color : white;
+}
+.container .index{
+    margin : auto;
+    font-size : 13px;
+}
+.container .correct{
+    background: rgb(136, 232, 136);
+    border-color: rgb(136, 232, 136);
+}
+.container .wrong{
+    background: rgb(231, 120, 120);
+    border-color: rgb(231, 120, 120);
+    
+}
+
+@media (max-width: 480px) {
+    .container h1{
+        font-size: 20px;
+    }
+    .container {
+        margin-top: 100px;
+        padding: 15px;
+        gap: 8px;
+        width : 283px;
+    }
+    
+    .container h2 {
+        font-size: 13px;
+    }
+
+    .container ul li {
+        height: 40px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .container button {
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+        height : 40px;
+    }
+    .container .index{
+        font-size: 11px;
+    }
+}

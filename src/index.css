@@ -1,0 +1,21 @@
+*{
+    margin : 0;
+    padding: 0;
+    
+}
+body{
+    height : 60vh;
+    background-image: linear-gradient(to right,rgb(91, 91, 181),white);
+    
+    
+    font-family: 'poppins';
+    
+}
+@media (max-width: 480px) {
+body{ 
+    background-image: linear-gradient(to bottom,rgb(91, 91, 181),white);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
